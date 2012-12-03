@@ -1,0 +1,21 @@
+
+Title: 
+	Html5 Surface and Matrix manipulation
+
+Author: 
+	Austin Fusiak
+
+Description: 
+	This is a collection of javascript class that can be used to manipulate a 3 dimensional surface.  
+	It consists of seporate functionality to manipulate matrices, creation rotational and translation 
+	matricies, create sets of points, and perform transformations on points.  It also defines a Surface 
+	class that defines a full surface which consists of a set of points, lines which connect two points, 
+	and planes which are sets of 3 or more points.
+
+To Do:
+	create methods to allow the creation of a surface from other sources such as data and not from a symbolic function 	
+	inherite Matrix from array 
+	remove reference to this.data in the Matrix class
+	ensure the matrix manipulations work on other dimension matricies in a more generic fashion 
+	add class to allow for shading of planes from a specific light source	
+
